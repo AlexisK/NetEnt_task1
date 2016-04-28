@@ -1,0 +1,13 @@
+{
+    "timeframe": {
+        "in"        : 100,
+        "cycle_min" : 1000,
+        "cycle_max" : 1500,
+        "out"       : 1000
+    },
+    "spin_step_const" : 10,
+    "spin_step_mult"  : 2,
+    "symbols_total"   : 4,
+    "symbols_gold"    : 1,
+    "locale"          : "en-US"
+}

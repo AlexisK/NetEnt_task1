@@ -1,13 +1,33 @@
-{
+window.c_config = {
     "timeframe": {
-        "in"        : 100,
-        "cycle_min" : 1000,
-        "cycle_max" : 1500,
-        "out"       : 1000
+        "animation" : 33,
+        "in"        : 1000,
+        "cycle"     : 1000,
+        "cycle_rnd" : 500,
+        "out"       : 1000,
+        "fix"       : 1000
     },
-    "spin_step_const" : 10,
-    "spin_step_mult"  : 2,
-    "symbols_total"   : 4,
-    "symbols_gold"    : 1,
-    "locale"          : "en-US"
+    "framerate"       : 30,
+    "spin_step"       : 0.04,
+    "spin_fix_step"   : 0.004,
+    "symbols_total"   : 5,
+    "symbols_mult"    : 2,
+    "locale"          : "en-US",
+    "path": {
+        "assets": "resources/assets/"
+    },
+    "symbol_size": { x: 235, y: 155 },
+    "symbol_position_map": ["center", 100, 10, 1, 10, 100, "center", -100, -10, -1, -10, -100],
+    "symbol_size_map": [1, 0.95, 0.9, 0.8, 0.7, 0.6, 0.5, 0.6, 0.7, 0.8, 0.9, 0.95],
+    "font": {
+        "family":"arial",
+        "size":40,
+        "color-win":"#9fff05",
+        "color-lost":"#f36868"
+    },
+    "guisize": {
+        "0":0.5,
+        "300":0.7,
+        "500":1
+    }
 }

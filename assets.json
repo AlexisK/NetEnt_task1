@@ -1,12 +1,13 @@
-{
+window.c_assets = {
     "symbols": {
-        "minor": ["symbol/s2.png","symbol/s3.png","symbol/s4.png","symbol/s5.png","symbol/s6.png"]
+        "minor": ["symbol/s2.png","symbol/s3.png","symbol/s4.png","symbol/s5.png","symbol/s6.png"],
         "gold": ["symbol/s1.png"]
     },
     "static": {
         "backgrounds": ["image/bg.png"],
         "button_disabled": "image/spin_grey.png",
         "button_active": "image/spin_green.png",
-        "separator": "image/sep.png"
+        "separator": "image/sep.png",
+        "arrow-right": "image/icon-cta-large.png"
     }
 }

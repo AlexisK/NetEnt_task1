@@ -1,0 +1,6 @@
+c_locale = {
+    Loading:"Loading",
+    select_mode: "Select your win pic!",
+    result_win: "You won!",
+    result_lost: "You lost!"
+}

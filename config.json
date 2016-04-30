@@ -2,14 +2,14 @@ window.c_config = {
     "timeframe": {
         "animation" : 33,
         "in"        : 1000,
-        "cycle"     : 1000,
-        "cycle_rnd" : 500,
-        "out"       : 1000,
+        "cycle"     : 500,
+        "cycle_rnd" : 1000,
+        "out"       : 2000,
         "fix"       : 1000
     },
     "framerate"       : 30,
     "spin_step"       : 0.04,
-    "spin_fix_step"   : 0.004,
+    "spin_fix_step"   : 0.003,
     "symbols_total"   : 5,
     "symbols_mult"    : 2,
     "locale"          : "en-US",
